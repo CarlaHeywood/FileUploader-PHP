@@ -1,0 +1,35 @@
+body, html {
+    font-family: 'Poppins', sans-serif; 
+    /* font-family: 'Roboto Mono', monospace; */
+}
+.loading, .error-message, .sent-message {
+    display:none;
+    margin-top:15px;
+    border-radius: 3px;
+    padding:10px; 
+    animation: fadein 5s;
+}
+.loading{
+    background-color: grey;
+    color: black;
+}
+.error-message{
+    background-color: #a13535;
+    color: white;
+}
+.sent-message{
+    background-color: #218221;
+    color: white;
+}
+.upload{ 
+    margin-top: 15px;
+    border: 0;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #44aaad;
+    color:white;
+}
+.upload:hover {
+    cursor: pointer;
+    background-color: #296769;
+}

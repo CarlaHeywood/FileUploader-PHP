@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>FileUploader-PHP</title>
+     <!-- Link Styles -->
+    <link type="text/css" media="screen" rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <form action="fileuploader.php" method="post" class="php-email-form" enctype="multipart/form-data">
+        <div class="form-group"> <!-- FILE UPLOAD -->
+          <label style="font-size:24px;" for="uploadFile">Upload your file: </label>
+          <input type="file" name="uploadFile" id="uploadFile" placeholder="Upload File">
+          <div class="validate"></div>
+        </div>
+        <div class="text-center">
+          <input style="font-size:18px;" class="upload" type="submit" name="submit" value="submit">
+        </div>
+        <!-- Send BulkEmail Status -->
+        <div class="submitStatus"> 
+          <div class="loading">Loading...</div>
+          <div class="error-message">Please try again.</div>
+          <div class="sent-message">Upload Successful!</div>
+        </div>
+      </form>
+      <!-- Copyright -->
+      <p style="position: absolute; bottom: 0; left: 5px;">&copy; 2022 FileUploader-PHP Developed by Carla Heywood.</p>
+  </body>
+</html>
