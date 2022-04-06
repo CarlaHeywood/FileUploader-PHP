@@ -1,5 +1,4 @@
 # FileUploader-PHP
 
-Upload text file to Uploads folder and display contents
 
-<img width="441" alt="Screen Shot 2022-04-05 at 5 05 12 PM" src="https://user-images.githubusercontent.com/22629607/161870549-3f8493bb-1757-4f39-a951-23a31402ed0d.png">
+<img width="414" alt="Screen Shot 2022-04-05 at 5 06 58 PM" src="https://user-images.githubusercontent.com/22629607/161870674-6ea624a0-7c45-4b53-add7-cc35290cded5.png">
